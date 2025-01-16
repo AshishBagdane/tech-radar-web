@@ -15,8 +15,7 @@
     "test": "jest --coverage --passWithNoTests",
     "test:watch": "jest --watch",
     "validate": "yarn type-check & yarn lint & yarn format:check & yarn test",
-    "prepare": "husky install",
-    "postinstall": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
