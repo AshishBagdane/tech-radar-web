@@ -1,0 +1,14 @@
+{
+  "extends": ["./.eslintrc.json"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/strict-boolean-expressions": "error",
+    "@typescript-eslint/no-floating-promises": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-handler-names": "error",
+    "import/no-cycle": "error",
+    "import/no-self-import": "error",
+    "import/no-relative-parent-imports": "error"
+  }
+}
